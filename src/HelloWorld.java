@@ -32,10 +32,35 @@ public class HelloWorld {
         double addDouble = newInt;
         System.out.println(newInt);
         System.out.println(addDouble);
-        int x = 100 + 50;
-        System.out.println(x);
+        int y = 100 + 50;
+        System.out.println(y);
         int sum1 = 30 * 4;
         System.out.println(sum1);
+        int x = 5;
+        System.out.println(++x);
+        System.out.println(x);
+        int a = 4;
+        a += 5;
+        System.out.println(a);
+
+        int num1 = 3;
+        int num2 = 4;
+        num2 *= num1;
+        System.out.println(num2);
+
+        int calc1 = 10;
+        int calc2 = 2;
+        calc1 /= calc2;
+        calc2 -= calc1;
+        System.out.println(calc1);
+        System.out.println(calc2);
+
+
+
+
+
+
+
     }
 }
 
