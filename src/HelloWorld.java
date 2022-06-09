@@ -54,10 +54,7 @@ public class HelloWorld {
         calc2 -= calc1;
         System.out.println(calc1);
         System.out.println(calc2);
-
-
-
-
+        System.out.println(10*5);
 
 
 
