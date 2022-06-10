@@ -15,5 +15,9 @@ public class ConditionsPractice {
         String result = (luckyNumber == 7) ? "You win!" : "You win NOTHING";
         System.out.println(result);
 
+
+
+
+
     }
 }

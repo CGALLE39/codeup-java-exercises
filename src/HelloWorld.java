@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main(String[] args) {
         byte tinyNum = 127; //Stores whole numbers from -128 to 127
@@ -56,6 +58,26 @@ public class HelloWorld {
         System.out.println(calc2);
         System.out.println(10*5);
 
+        double pi = 3.14159;
+        System.out.printf("%.2f",pi);
+
+
+        Scanner user = new Scanner(System.in);
+        System.out.println("Enter a word: ");
+        String randomWord = user.nextLine();
+
+        Scanner user2 = new Scanner(System.in);
+        System.out.println("Enter another word: ");
+        String randomWord2 = user2.nextLine();
+
+        Scanner user3 = new Scanner(System.in);
+        System.out.println("Enter ANOTHER word: ");
+        String randomWord3 = user3.nextLine();
+
+        System.out.println(randomWord + " " + randomWord2 + " " + randomWord3);
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int userNum = reader.nextInt();
 
 
     }
