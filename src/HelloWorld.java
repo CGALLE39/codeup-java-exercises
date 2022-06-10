@@ -79,6 +79,12 @@ public class HelloWorld {
         System.out.println("Enter a number: ");
         int userNum = reader.nextInt();
 
+        int width = 25;
+        width *=2;
+        int length = 15;
+        length *=2;
+        int perimeter = width + length;
+        System.out.print("the classroom perimeter is " + perimeter);
 
     }
 }
