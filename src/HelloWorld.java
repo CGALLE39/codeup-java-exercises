@@ -60,7 +60,7 @@ public class HelloWorld {
 
         double pi = 3.14159;
         System.out.printf("%.2f",pi);
-
+        System.out.println("");
 
         Scanner user = new Scanner(System.in);
         System.out.println("Enter a word: ");
@@ -79,12 +79,34 @@ public class HelloWorld {
         System.out.println("Enter a number: ");
         int userNum = reader.nextInt();
 
-        int width = 25;
-        width *=2;
-        int length = 15;
-        length *=2;
-        int perimeter = width + length;
-        System.out.print("the classroom perimeter is " + perimeter);
+        Scanner theStorySoFar = new Scanner(System.in);
+        System.out.println("Tell me a funny story: ");
+        String coolPhrase = theStorySoFar.nextLine();
+
+
+        Scanner width1 = new Scanner(System.in);
+        System.out.println("soooo whats the width");
+        int widthInput = width1.nextInt();
+
+        Scanner length1 = new Scanner(System.in);
+        System.out.println("soooo whats the length");
+        int lengthInput = length1.nextInt();
+
+        int width2 = widthInput;
+        width2 *=2;
+        int length2 = lengthInput;
+        length2 *=2;
+        int perimeter = width2 + length2;
+        int area = widthInput * lengthInput;
+        System.out.print("the perimeter of the classroom is " + perimeter);
+        System.out.println("");
+        System.out.println("the area of the classroom is " + area);
+
+        int coconut = 5;
+        while (coconut < 16) {
+            System.out.println(coconut);
+            coconut++;
+        }
 
     }
 }
