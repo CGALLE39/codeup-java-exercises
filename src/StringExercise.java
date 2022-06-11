@@ -24,5 +24,15 @@ public class StringExercise {
                 "We don't need no thought control";
         System.out.println(input1);
 
+        String Quotations = "Check \"this\" out!, \"s inside of \"s!";
+        System.out.println(Quotations);
+
+        String cThing = "In windows, the main drive is usually C:\\";
+        System.out.println(cThing);
+
+        String backSlash = "I can do backslashes \\, double backslashes \\\\, and the amazing triple backslash \\\\\\!";
+        System.out.println(backSlash);
+
+
     }
 }

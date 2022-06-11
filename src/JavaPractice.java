@@ -35,21 +35,14 @@ public class JavaPractice {
         System.out.println(slashes);
 
         /////selects highest value
-        System.out.println(Math.max(5,10));
+        System.out.println(Math.max(5, 10));
 
         System.out.println(Math.sqrt(64));
 
         System.out.println(Math.abs(-4.7));
 
-        int randomNum = (int)(Math.random() * 101); //random # 0 to 100
+        int randomNum = (int) (Math.random() * 101); //random # 0 to 100
         System.out.println(randomNum);
-
-
-
-
-
-
-
 
     }
 }
