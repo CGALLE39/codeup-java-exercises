@@ -93,7 +93,7 @@ public class ConsoleAdventureGame {
                         int damagDealt = rand.nextInt(heroDmg);
                         int damageTaken = rand.nextInt(monsterHp);
 
-                        monsterHp -= damagDealt;
+                        monsterHp -=  damagDealt;
                         heroHp -= damageTaken;
 
                         slowPrint("\t> You Strike the " + monster + " for " + ANSI_BLUE + damagDealt + " damage" + ANSI_RESET);
