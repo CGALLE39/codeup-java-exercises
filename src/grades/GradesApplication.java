@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class GradesApplication {
 
 
-    public String recordAttendance(String date, String value) {
-
-    }
+//    public String recordAttendance(String date, String value) {
+//
+//    }
 
     public static void main (String[] args) {
         HashMap<String, String> usernames = new HashMap<String, String>();
@@ -105,6 +105,6 @@ public class GradesApplication {
             }
         }
     }
-}
+
 
 
