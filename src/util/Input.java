@@ -7,10 +7,8 @@ public class Input {
 
     public Input() {}
 
-
-
-    public String getString() {
-        System.out.println("Gimmie a string idiot");
+    public String getString(String give_me_a_movie) {
+        System.out.println("Gimmie a string smart intelligent beautiful person");
         String input = scanner.nextLine();
         if (input.equalsIgnoreCase(" ")) {;
         } return input;
